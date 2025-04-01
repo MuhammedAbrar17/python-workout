@@ -14,3 +14,17 @@ str2 = "Abrar"
 
 concatination_string = str1 + str2
 print(concatination_string) # it's showing muhammedabrar as single worde. 
+
+# string indexing 
+
+string = 'Hello brohter '
+
+indexing = string[2] # we can fetch character on indexing mehtod
+
+# slicing 
+
+string1 = "Hey Abu"
+
+slicing = string1[2:5] # this fetch data starting 2 position to 4th positon 
+
+print(indexing)
