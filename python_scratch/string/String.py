@@ -1,3 +1,10 @@
+text = "Hello World"
+upper_text = text.upper()
+lower_text = text.lower()
+
+print(upper_text)
+print(lower_text)
+
 #string lenght
 text = "Hello World"
 print(len(text))
