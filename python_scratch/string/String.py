@@ -47,4 +47,8 @@ print("individuel vowel count")
 for vowel,cnt in vowels_count.items():
     print(f"{vowel}:{cnt}")
 
+# reverse string
+text_3 = "PYTHON"
+reversed_string = text[::-1]
+print(reversed_string)
 
