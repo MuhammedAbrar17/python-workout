@@ -25,3 +25,7 @@ my_list[1] = 23
 my_list.append(10) # adding at end
 my_list.insert(2,33) # add at postiong
 my_list.extend([2,4,55]) # add multiple
+
+# Removing Elements 
+my_list.remove(3) # remove by value
+my_list.pop() # remove by index
