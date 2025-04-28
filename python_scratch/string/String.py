@@ -59,3 +59,7 @@ text_3 = "PYTHON"
 reversed_string = text[::-1]
 print(reversed_string)
 
+# str. join (itereable)
+words = ['python', 'is','awesome']
+sentence = ' '.join(words)
+print(sentence)
