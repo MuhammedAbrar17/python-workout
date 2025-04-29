@@ -22,3 +22,14 @@ y -= 3 #(y = y - 3)
 
 print(x,y)
 
+# Challenge 3 : Combining Operaions
+
+total = 100
+
+#cost of item 
+item1 = 33
+item2 = 24
+
+total -= item1 + item2
+print(total)
+

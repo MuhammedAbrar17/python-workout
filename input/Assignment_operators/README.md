@@ -18,3 +18,12 @@ Steps:
 Initialize two variables: x with a value of 10 and y with a value of 20.
 Increment x: Increase x by 5 using the x += 5 operator (equivalent to x = x + 5). Print the updated value of x.
 Decrement y: Decrease y by 3 using the y -= 3 operator (equivalent to y = y - 3). Print the updated value of y.
+
+Challenge 3: Combining Operations
+Objective: Perform calculations and update variables in a single line using combined assignment operators.
+
+Steps:
+
+Initialize a variable named total with a value of 100.
+Set the cost of two items: item1 = 25 and item2 = 30.
+Update total: Subtract the combined cost of both items from total in a single line using the -= operator: total -= item1 + item2. Print the remaining balance in total.
