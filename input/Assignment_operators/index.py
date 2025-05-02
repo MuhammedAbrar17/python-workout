@@ -33,3 +33,8 @@ item2 = 24
 total -= item1 + item2
 print(total)
 
+# Challenge 4 : Augmented Assignment with Strings 
+
+message = "Hello"
+message += "World"
+print(message)

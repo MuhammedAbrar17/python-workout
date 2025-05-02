@@ -27,3 +27,11 @@ Steps:
 Initialize a variable named total with a value of 100.
 Set the cost of two items: item1 = 25 and item2 = 30.
 Update total: Subtract the combined cost of both items from total in a single line using the -= operator: total -= item1 + item2. Print the remaining balance in total.
+
+Challenge 4: Augmented Assignment with Strings
+Objective: Modify strings using the += operator for concatenation.
+
+Steps:
+
+Initialize a variable named message with the value "Hello".
+Concatenate string: Append " World!" to the end of message using the += operator: message += " World!". Print the final message.
