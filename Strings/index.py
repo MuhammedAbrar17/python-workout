@@ -49,3 +49,14 @@ phrase1 = "Hey i become an ethical hacker on 2025 end"
 find = phrase1.find("hacker")
 find2 = phrase1.index("ethical")
 print(find,find2)
+
+
+#str.split(separator)
+sentence = "Abu is a dengours hacker in the world"
+word = sentence.split()
+print(word)
+
+# str.count(substring)
+senten = "python is very funny. python is easy . python is very powerfull"
+count = senten.count("python")
+print(count)
