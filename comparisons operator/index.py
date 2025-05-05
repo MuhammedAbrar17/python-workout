@@ -10,5 +10,6 @@ print(a<=b)
 
 print(result)
 
-bool = True != False is True
+bool = True != False
+
 print("bool",bool)
