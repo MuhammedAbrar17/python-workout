@@ -11,3 +11,20 @@ else:
         print("not old enough  ")
     elif grade < 60:
         print("grade not hight enough")
+
+
+# challenges 2 Discount with membership or coupon 
+
+original_price = 1000
+has_membership = True
+has_coupon = "valid"
+
+if has_membership or has_coupon == "valid":
+    discount = 0.10
+    final_price = original_price *(1- discount)
+    print("discoutn applied")
+else:
+    final_price = original_price
+    print("No discount")
+
+print(f"final price: {final_price:.2f}")
