@@ -28,3 +28,13 @@ else:
     print("No discount")
 
 print(f"final price: {final_price:.2f}")
+
+
+# challenge 3 check weekend 
+
+day = input("Enter a day of the week (e.g, Monday)").title()
+
+if not (day == "Saturday" or day == "Sunday"):
+    print("It's a weekday")
+else:
+    print("It's weekend")
