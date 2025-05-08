@@ -38,3 +38,23 @@ if not (day == "Saturday" or day == "Sunday"):
     print("It's a weekday")
 else:
     print("It's weekend")
+
+
+# challenge 4 checking username and password
+
+currect_username = "user123"
+
+username = input("enter username")
+password = input("Enter password")
+
+if username == currect_username and password != "":
+    print("Loging Succefuly")
+
+elif username != currect_username and password == "":
+    print("username and password is incorrect")
+else:
+    if username != currect_username:
+        print("user name is wrong")
+    elif password == "":
+        print("password is wrong")
+    
