@@ -11,3 +11,10 @@ for i in range(1,11):
 
 for j in range(10,0,-1):
     print(j)
+print("hello "
+"dsfasdf")
+# challenge 3 : Even numbers only (1 to 10)
+
+for even in range(1,11):
+    if even % 2 == 0:
+        print(even)
