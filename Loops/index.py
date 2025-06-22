@@ -18,3 +18,9 @@ print("hello "
 for even in range(1,11):
     if even % 2 == 0:
         print(even)
+
+# challenge 4 : sum of numbers (1 to 100)
+sum = 0
+for i in range(1,101):
+    sum += i
+print(sum)
