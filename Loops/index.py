@@ -1,6 +1,11 @@
 # Basics
 for i in range(10):
-    print("Abu")
+    print("Abu") # this print Abu 10 times 
+
+# range(start , stop , step)
+
+for s in range(1,10,1):
+    print(s)
 
 # challenge print 1 to 10 
 
