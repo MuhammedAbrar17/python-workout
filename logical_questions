@@ -1,0 +1,36 @@
+# Anagram checker(check if tow stings are anagram (contain same letter in a different order))
+str1 = "hello"
+str2 = "ollh"
+def is_anagram(str1,str2):
+    return sorted(str1) == sorted(str2)
+
+print(is_anagram(str1,str2))
+
+
+# find missing number in a list(A list contain numbers form 1 to 100 except one number is missing. find the missing number)
+
+def find_missing_number(arr):
+    return sum(range(1,101)) - sum(arr)
+
+numbers = list(range(1,101))
+numbers.remove(22)
+
+missing = find_missing_number(numbers)
+print("missing number is ", missing)
+
+# if they have no missing values in that array? we can write this funtion in another way
+
+def missing_number_find(arr):
+    expect_sum = sum(range(1,101))
+    actual_sum = sum(arr)
+    if expect_sum == actual_sum:
+        return None
+    return expect_sum - actual_sum
+
+numbersss = list(range(1,101))
+result = missing_number_find(numbers)
+
+if result is None:
+    print("no numbers is missing")
+else:
+    print("missing number is", result)
