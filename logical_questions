@@ -34,3 +34,21 @@ if result is None:
     print("no numbers is missing")
 else:
     print("missing number is", result)
+
+
+
+#  Count Frequency of Characters in a String
+
+def cahr_freq(s):
+    freq = {}
+    for char in s:  # if the charecter's have casesensitive ( for char in s.lower():) this mehtod convert all charectres in to lower case 
+        if char in freq:
+            freq[char] += 1
+        else:
+            freq[char] = 1
+    return freq
+
+s = "heLloabu"
+
+print(cahr_freq(s))
+
